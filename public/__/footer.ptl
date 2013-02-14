@@ -1,0 +1,11 @@
+<script>
+var pkBaseURL = (("https:" == document.location.protocol) ? {d$SSLpiwikURL|js} : {d$piwikURL|js});
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script>
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", {d$piwikIdSite});
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="{d$piwikURL}piwik.php?idsite={d$piwikIdSite}" style="border:0" alt="" /></p></noscript>
+<!-- INLINE footer -->
